@@ -5,7 +5,7 @@ const axios = require('axios').default;
 const queryString = require("query-string");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 
 const url = "https://www.uptodate.com/register/AddressFormWebService.do?guid=";
