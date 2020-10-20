@@ -30,7 +30,6 @@ app.get('/', (req, res) => {
 })
 
 app.post("/registerUptodate",async (req,res) =>{
-    
     const formData = {
         formName: "INTERNATIONAL",
         fieldOptionalText: "(optional)",
